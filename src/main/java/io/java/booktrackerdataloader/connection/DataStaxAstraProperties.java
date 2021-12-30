@@ -10,6 +10,7 @@ public class DataStaxAstraProperties {
     private File secureConnectBundle;
 
     public File getSecureConnectBundle() {
+        //System.out.println(secureConnectBundle.toPath().toString());
         return secureConnectBundle;
     }
 

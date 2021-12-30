@@ -1,4 +1,13 @@
+datadump:
+  location:
+    author: C:\Users\curaa\IntelliJ WorkSpace\book-tracker-data-loader\src\main\resources\test-authors.txt
+    works: C:\Users\curaa\IntelliJ WorkSpace\book-tracker-data-loader\src\main\resources\test-works.txt
+
+
+
 spring:
+  main:
+    allow-circular-references: true
   data:
     cassandra:
       keyspace-name: main
